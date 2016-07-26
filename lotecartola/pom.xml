@@ -27,4 +27,19 @@
       </plugin>
     </plugins>
   </build>
+  <dependencies>
+
+	<dependency>
+	    <groupId>org.postgresql</groupId>
+	    <artifactId>postgresql</artifactId>
+	    <version>9.4.1209.jre7</version>
+	</dependency>
+	
+	<dependency>  
+	    <groupId>org.primefaces</groupId>  
+	    <artifactId>primefaces</artifactId>  
+	    <version>6.0</version>  
+	</dependency>
+	
+  </dependencies>
 </project>
