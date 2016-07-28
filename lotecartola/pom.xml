@@ -107,7 +107,6 @@
       <version>6.0.0</version>
     </dependency>
 
-
     <dependency>
       <groupId>com.sun.facelets</groupId>
       <artifactId>jsf-facelets</artifactId>
