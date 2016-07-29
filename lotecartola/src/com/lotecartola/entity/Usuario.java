@@ -15,6 +15,15 @@ public class Usuario implements Serializable {
 	@Column(name = "id_usuario", nullable = false)
 	private Integer idUsuario;
 
+	@Column(name = "nome_usuario", nullable = false)
+	private String nomeUsuario;
+	
+	@Column(name = "email_usuario", nullable = false)
+	private String emailUsuario;
+	
+	@Column(name = "apelido_usuario", nullable = false)
+	private String apelidoUsuario;
+	
 	public Integer getIdUsuario() {
 		return idUsuario;
 	}
@@ -23,6 +32,30 @@ public class Usuario implements Serializable {
 		this.idUsuario = idUsuario;
 	}
 	
+	public String getNomeUsuario() {
+		return nomeUsuario;
+	}
+
+	public void setNomeUsuario(String nomeUsuario) {
+		this.nomeUsuario = nomeUsuario;
+	}
+
+	public String getEmailUsuario() {
+		return emailUsuario;
+	}
+
+	public void setEmailUsuario(String emailUsuario) {
+		this.emailUsuario = emailUsuario;
+	}
+
+	public String getApelidoUsuario() {
+		return apelidoUsuario;
+	}
+
+	public void setApelidoUsuario(String apelidoUsuario) {
+		this.apelidoUsuario = apelidoUsuario;
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
